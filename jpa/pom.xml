@@ -14,8 +14,8 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.build.source>1.8</project.build.source>
 		<odata.version>4.4.0</odata.version>
-        <jackson.version>2.4.2</jackson.version>
-	    <powermock.version>1.7.1</powermock.version>
+		<jackson.version>2.4.2</jackson.version>
+		<powermock.version>1.7.1</powermock.version>
 	</properties>
 
 	<profiles>
@@ -39,6 +39,11 @@
 	</profiles>
 
 	<dependencies>
+		<dependency>
+			<groupId>org.apache.olingo</groupId>
+			<artifactId>odata-commons-api</artifactId>
+			<version>4.4.0</version>
+		</dependency>
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
